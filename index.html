@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>应用管家</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/hotcss.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "//hm.baidu.com/hm.js?c9e3e7ffdcce5b383a052c55fb9400c7";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<input name="q" value="" class="text-search" type="text" placeholder="搜索：Uber"/>
+			<input type="submit" class="search" value="" />
+		</div>
+		<div class="shadow"></div>
+		<div class="all">
+	    </div>
+	</body>
+<script type="text/javascript">
+	var url = window.location.href;
+	var m = url.indexOf('?');
+	var t = url.substr(m+1);
+	if(m>0){	
+		$(".text-search").val(decodeURIComponent(t));
+		var urls="http://app.zookingsoft.com/api/search?key="+t;
+  		ajxafun(urls,okfun);
+	}else{
+		urls="http://app.zookingsoft.com/api/index";
+  		ajxafun(urls,okfun);
+	}
+  	$(".search").click(function(){
+		var s;
+		s=$(".text-search").val();
+		setContent(s);
+		var urls="http://app.zookingsoft.com/api/search?key="+s;
+		ajxafun(urls,okfun);
+	});
+	function setContent(s){
+		s = s.replace(/<\/?[^>]*>/g,''); //去除HTML tag
+		s = s.replace(/[ | ]*\n/g,'\n'); //去除行尾空白
+		s = s.replace(/\n[\s| | ]*\r/g,'\n'); //去除多余空行
+		return s;
+	}	
+</script>
+</html>
+
