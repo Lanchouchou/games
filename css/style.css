@@ -1,0 +1,302 @@
+html, body, div, ul, li, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+li {
+  list-style-type: none; }
+
+body {
+  width: 16rem;
+  font-size: 0.71111rem;
+  font-family: "microsoft yahei";
+  background-color: #e7e8ea; }
+
+a {
+  text-decoration: none;
+  color: #333;
+  -webkit-tap-highlight-color: transparent; }
+
+span {
+  -webkit-tap-highlight-color: transparent; }
+
+.head {
+  width: 14.57778rem;
+  padding: 0.2963rem 0.71111rem;
+  height: 1.77778rem;
+  line-height: 1.77778rem;
+  background-color: #fafafa; }
+
+.head .back {
+  background-image: url(../img/back.png);
+  vertical-align: top;
+  display: inline-block;
+  background-color: #fafafa;
+  width: 1.77778rem;
+  height: 1.77778rem;
+  background-size: 100% 100%;
+  margin-left: -0.22222rem;
+  margin-right: 0.07407rem; }
+
+.head .text-search {
+  vertical-align: top;
+  width: 9.18519rem;
+  height: 1.77778rem;
+  line-height: 1.77778rem;
+  padding: 0 0.44444rem;
+  color: #333;
+  font-size: 0.53333rem;
+  border: 1px solid #333;
+  border-radius: 0.2963rem;
+  margin-right: 0.41481rem;
+  background-color: #fafafa; }
+
+.head .search {
+  vertical-align: top;
+  display: inline-block;
+  background-color: #fafafa;
+  width: 1.77778rem;
+  height: 1.77778rem;
+  background-image: url(../img/search.png);
+  background-size: 100% 100%; }
+
+.shadow {
+  width: 16rem;
+  height: 0.35556rem;
+  background-image: url(../img/shadow.png);
+  background-size: 100% 100%; }
+
+.top {
+  width: 14.51852rem;
+  overflow: hidden;
+  padding: 0.74074rem 0.74074rem 0.74074rem 0.74074rem;
+  background-color: #fafafa; }
+  .top .left-img {
+    width: 2.37037rem;
+    height: 2.37037rem;
+    float: left;
+    margin-right: 0.59259rem; }
+    .top .left-img img {
+      width: 100%;
+      height: 100%; }
+  .top .m-content {
+    float: left;
+    width: 8.59259rem;
+    height: 2.37037rem; }
+    .top .m-content .btn {
+      width: 100%;
+      height: 0.59259rem; }
+      .top .m-content .btn li {
+        line-height: 0.59259rem;
+        float: left;
+        padding: 0.04444rem;
+        margin-right: 0.22222rem;
+        background-color: #333;
+        color: #fff;
+        font-size: 0.35556rem;
+        border-radius: 0.07407rem; }
+  .top .h2 {
+    overflow-x: hidden;
+    height: 0.66667rem;
+    line-height: 1;
+    font-size: 0.62222rem;
+    color: #212121;
+    padding-top: 0.05926rem; }
+  .top .h3 {
+    height: 0.74074rem;
+    font-size: 0.44444rem;
+    color: #787878;
+    margin: 0.14815rem 0 0rem; }
+  .top .right-btn {
+    float: left;
+    width: 2.96296rem;
+    height: 1.11111rem;
+    line-height: 1.11111rem;
+    font-size: 0.53333rem;
+    color: #fff;
+    text-align: center;
+    background-color: #007AFF;
+    border-radius: 0.2963rem; }
+
+.tabBox {
+  padding-bottom: 0.44444rem;
+  background-color: #fafafa; }
+
+.tabBox .hd {
+  height: 2.07407rem;
+  line-height: 2.07407rem;
+  margin-bottom: 0.02963rem; }
+
+.tabBox .hd ul {
+  overflow: hidden; }
+
+.tabBox .hd ul li {
+  width: 8rem;
+  text-align: center;
+  float: left;
+  color: #007AFF; }
+
+.tabBox .hd ul .on {
+  border-bottom: 0.07407rem solid #007AFF; }
+
+.tabBox .hd ul .on a {
+  color: #007AFF; }
+
+.tabBox .bd {
+  height: 13.92593rem;
+  position: relative;
+  overflow: hidden; }
+
+.tabBox .bd ul {
+  position: absolute;
+  width: 7407.40741rem; }
+
+.tabBox .bd ul li {
+  float: left;
+  background-color: #f2f2f2; }
+
+.tabBox .bd ul li img {
+  width: 7.48148rem;
+  height: 13.92593rem;
+  padding: 0.59259rem 0.44444rem 0 0.66667rem; }
+
+.md {
+  clear: both;
+  margin-top: 0.37037rem;
+  padding: 0 0.66667rem 0.2963rem;
+  background-color: #f6f6f6; }
+
+.p1 {
+  width: 13.33333rem;
+  height: 1.48148rem;
+  line-height: 1.48148rem;
+  font-size: 0.66667rem;
+  color: #707070;
+  padding-right: 40px;
+  display: inline-block; }
+
+.text-content {
+  position: relative; }
+
+.text-content .p2 {
+  font-size: 0.53333rem;
+  color: #767676;
+  font-family: "microsoft yahei"; }
+
+.zhedie {
+  font-size: 0.53333rem;
+  color: #757575; }
+
+.zhedie p {
+  line-height: 0.88889rem; }
+
+.text-content .san-down {
+  width: 0;
+  height: 0;
+  border-width: 0.37037rem 0.37037rem 0;
+  border-style: solid;
+  border-color: #ddd transparent transparent;
+  margin: 40px auto;
+  position: absolute;
+  right: 0.44444rem;
+  top: 0; }
+
+.text-content .san-up {
+  width: 0;
+  height: 0;
+  border-width: 0 0.37037rem 0.37037rem;
+  border-style: solid;
+  border-color: transparent transparent #ddd;
+  display: none;
+  margin: 40px auto;
+  position: absolute;
+  right: 0.44444rem;
+  top: 0; }
+
+.md .top {
+  padding: 0;
+  padding-top: 0.59259rem;
+  background-color: #f6f6f6; }
+
+.md .top span {
+  font-size: 0.35556rem;
+  line-height: 0;
+  background-color: #ddd;
+  padding: 0.04444rem;
+  border-radius: 0.07407rem;
+  vertical-align: top;
+  line-height: 0.59259rem;
+  color: #7F7F80; }
+
+.md .tujian {
+  padding-bottom: 0.59259rem;
+  border-bottom: 1px solid #ddd; }
+
+.md .last {
+  border-bottom: none; }
+
+.like {
+  overflow: hidden; }
+
+.like li {
+  width: 4.44444rem;
+  float: left;
+  margin-right: 0.44444rem; }
+
+.like li:last-child {
+  margin-right: 0; }
+
+.like li ul li {
+  width: 4.44444rem;
+  text-align: center; }
+
+.like li ul li:first-child {
+  width: 4.44444rem;
+  height: 4.44444rem;
+  background-color: #009900; }
+
+.t-title {
+  font-weight: 550;
+  font-size: 0.66667rem;
+  color: #000;
+  margin: 0.22222rem 0 0.14815rem; }
+
+.daxiao {
+  font-size: 0.35556rem;
+  color: #333;
+  margin-bottom: 0.22222rem; }
+
+.b-btn {
+  width: 4.44444rem;
+  height: 1.03704rem;
+  line-height: 1.03704rem;
+  color: #fff;
+  background-color: #007AFF;
+  border-radius: 0.2963rem; }
+
+.footer {
+  margin-top: 0.37037rem;
+  padding: 0.44444rem 0;
+  background-color: #f9f9f9; }
+
+.footer > p {
+  padding-left: 0.66667rem; }
+
+.banner {
+  width: 16rem;
+  height: 5.55556rem;
+  background-color: #007AFF;
+  margin: 0.44444rem 0; }
+
+.banner img {
+  width: 100%;
+  height: 100%; }
+
+.fs {
+  color: #757575;
+  font-size: 0.59259rem; }
+
+.foot_font {
+  line-height: 0.59259rem;
+  font-size: 0.53333rem;
+  color: #707070; }

@@ -1,0 +1,124 @@
+html, body, div, ul, li, h2, h3, p, input {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+li {
+  list-style-type: none; }
+
+body {
+  width: 16rem;
+  font-size: 0.71111rem;
+  font-family: "microsoft yahei"; }
+
+a {
+  text-decoration: none;
+  color: #333;
+  -webkit-tap-highlight-color: transparent; }
+
+input {
+  -webkit-tap-highlight-color: transparent; }
+
+.header {
+  width: 14.57778rem;
+  padding: 0.2963rem 0.71111rem;
+  height: 1.77778rem;
+  line-height: 1.77778rem; }
+
+.header .text-search {
+  vertical-align: top;
+  width: 11.2rem;
+  height: 1.77778rem;
+  line-height: 1.77778rem;
+  padding: 0 0.44444rem;
+  color: #333;
+  font-size: 0.53333rem;
+  border: 1px solid #333;
+  border-radius: 0.2963rem;
+  margin-right: 0.41481rem;
+  background-color: #F0F1F4; }
+
+.header .search {
+  vertical-align: top;
+  display: inline-block;
+  background-color: #fff;
+  width: 1.77778rem;
+  height: 1.77778rem;
+  background-image: url(../img/search.png);
+  background-size: 100% 100%; }
+
+.shadow {
+  width: 16rem;
+  height: 0.35556rem;
+  background-image: url(../img/shadow.png);
+  background-size: 100% 100%; }
+
+.column {
+  width: 14.57778rem;
+  height: 2.44444rem;
+  margin: 0.74074rem 0.71111rem 0;
+  padding-bottom: 0.74074rem;
+  border-bottom: 2px solid #ddd; }
+
+.img_box {
+  width: 2.44444rem;
+  height: 2.44444rem;
+  float: left;
+  margin-right: 0.53333rem; }
+
+.img_box > img {
+  width: 100%;
+  height: 100%; }
+
+.text {
+  float: left;
+  width: 8.74074rem;
+  padding-top: 0.05926rem;
+  margin-right: 0.35556rem; }
+  .text .title {
+    font-size: 0.71111rem;
+    line-height: 1;
+    color: #202020; }
+  .text .count {
+    font-size: 0.53333rem;
+    color: #7D7D7D;
+    margin-right: 0.14815rem; }
+  .text .s, .text .free {
+    font-size: 0.53333rem;
+    color: #fa5153;
+    margin-right: 0.14815rem; }
+  .text .t-text {
+    overflow: hidden;
+    height: 0.68148rem;
+    margin-top: 0.14815rem; }
+    .text .t-text .c-btn {
+      line-height: 0.59259rem;
+      float: left;
+      padding: 0.02963rem;
+      margin-right: 0.22222rem;
+      background-color: #333;
+      color: #fff;
+      font-size: 0.35556rem;
+      border-radius: 0.07407rem;
+      vertical-align: top; }
+    .text .t-text .sm {
+      width: 5.92593rem;
+      float: left;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-size: 0.53333rem;
+      line-height: 1;
+      color: #747474;
+      vertical-align: bottom; }
+
+.btn {
+  width: 2.37037rem;
+  height: 1.15556rem;
+  line-height: 1.15556rem;
+  text-align: center;
+  background-color: #3D8AFD;
+  border-radius: 0.22222rem;
+  color: #fff;
+  float: right;
+  font-size: 0.53333rem; }
